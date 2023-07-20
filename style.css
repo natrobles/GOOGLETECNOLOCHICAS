@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 10 px
+}
+a{
+    text-decoration: pink;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}   
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: rgba(170, 28, 127, 0.651);
+}  
+nav .nav-right-section .menu-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px; 
+    height: 25px;
+}
+nav .nav-right-section .img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+/* Google logo style */
+main{
+    margin-top: auto;
+    text-align: center;
+}
+    
